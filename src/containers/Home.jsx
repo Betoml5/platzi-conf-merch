@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
+import initialState from '../initialState';
+import Products from '../components/Products';
 
+const Home = () => <Products products={initialState.products} />;
 
-const Home = () => (
-            <h1>Home Fokiu</h1>
-    )
-
-export default Home
+export default Home;
